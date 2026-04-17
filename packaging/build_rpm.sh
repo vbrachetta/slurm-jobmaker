@@ -29,7 +29,7 @@ set -e
 
 PACKAGE="slurm-jobmaker"
 VERSION="1.0.0"
-RPM_BUILD_DIR="${HOME}/build_rpm"
+RPM_BUILD_DIR="${HOME}/rpmbuild"
 
 # -----------------------------------------------------------------------------
 # Check dependencies
@@ -76,7 +76,7 @@ rpmbuild -ba "${RPM_BUILD_DIR}/SPECS/${PACKAGE}.spec" \
 # Copy result to project directory
 # -----------------------------------------------------------------------------
 find "${RPM_BUILD_DIR}/RPMS" -name "${PACKAGE}-${VERSION}*.rpm" \
-     -exec cp {}. \;
+     -exec cp {} . \;
 
 echo ""
 echo "Package built: ${PACKAGE}-${VERSION}-1.x86_64.rpm"
