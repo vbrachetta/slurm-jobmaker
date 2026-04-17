@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	cmake -B build \
+	      -DCMAKE_BUILD_TYPE=Release \
+	      -DCMAKE_INSTALL_PREFIX=/usr
+
+override_dh_auto_build:
+	cmake --build build --parallel $(nproc)
+
+override_dh_auto_install:
+	cmake --install build --prefix debian/slurm-jobmaker/usr

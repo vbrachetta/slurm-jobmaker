@@ -1,0 +1,19 @@
+slurm-jobmaker (1.0.0) stable; urgency=low
+
+  * Initial release.
+  * Interactive graphical form for composing Slurm job submission scripts.
+  * Live script preview panel that updates as fields are edited.
+  * Profile-based configuration system via plain-text.conf files.
+  * Built-in profile for BlueBEAR (University of Birmingham HPC facility).
+  * Generic profile for use with arbitrary Slurm-based HPC clusters.
+  * Input validation for all fields prior to saving.
+  * Time format validation (DD-HH:MM:SS).
+  * Email notification configuration (type and address).
+  * CPU constraint selection populated from profile.
+  * Quality of Service (QoS) selection populated from profile.
+  * Account field for specifying the billing account.
+  * Load profile from any location via file dialog.
+  * DEB package for Debian and Ubuntu systems.
+  * RPM package for Fedora, Rocky Linux, and Red Hat systems.
+
+ -- Vincenzo Brachetta <v.brachetta@bham.ac.uk>  Fri, 17 Apr 2026 11:26:25 +0100

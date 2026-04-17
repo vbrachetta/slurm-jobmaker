@@ -1,0 +1,15 @@
+Package: slurm-jobmaker
+Version: 1.0.0
+Section: science
+Priority: optional
+Architecture: amd64
+Depends: libqt6widgets6 (>= 6.0), hicolor-icon-theme
+Maintainer: Vincenzo Brachetta <v.brachetta@bham.ac.uk>
+Description: Graphical tool for generating Slurm job submission scripts
+ Slurm JobMaker is an open-source, portable graphical utility for the
+ interactive generation of Slurm job submission scripts. Designed to
+ support early-stage researchers and occasional HPC users, it guides
+ users through the configuration of key job parameters and displays a
+ live preview of the resulting script. Cluster-specific settings are
+ loaded from plain-text profile files, making the tool adaptable to
+ any Slurm-based HPC system without recompilation.

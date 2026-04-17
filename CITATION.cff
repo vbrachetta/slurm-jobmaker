@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: Slurm JobMaker
+message: >
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Brachetta
+    given-names: Vincenzo
+    affiliation: University of Birmingham
+    orcid: https://orcid.org/0009-0008-3553-0163
+repository-code: https://github.com/vbrachetta/slurm-jobmaker
+url: https://github.com/vbrachetta/slurm-jobmaker
+version: 1.0.0
+date-released: 2026-04-17
+license: MIT
+abstract: >
+  Slurm JobMaker is an open-source, portable graphical tool for generating
+  Slurm job submission scripts. It guides users through the configuration
+  of key job parameters interactively and displays a live preview of the
+  resulting script, reducing configuration errors and lowering the barrier
+  for researchers new to HPC environments. Cluster-specific settings are
+  loaded from plain-text profile files, making the tool portable across
+  different HPC systems without recompilation.
+keywords:
+  - HPC
+  - Slurm
+  - job scheduler
+  - research software
+  - high-performance computing
+  - job submission
+  - reproducibility
