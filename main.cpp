@@ -526,7 +526,7 @@ private slots:
             "<a href='https://github.com/vbrachetta/slurm-jobmaker'>"
             "GitHub Repository</a>"
             "  |  "
-            "<a href='https://doi.org/zenodo-doi'>"
+            "<a href='https://doi.org/10.5281/zenodo.19629545'>"
             "Zenodo Record</a>"
         );
         msgBox.setStandardButtons(QMessageBox::Ok);

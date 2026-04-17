@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        Graphical tool for generating Slurm job submission scripts
 
 License:        MIT
-URL:            https://github.com/yourusername/slurm-jobmaker
+URL:            https://github.com/vbrachetta/slurm-jobmaker
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake

@@ -6,6 +6,9 @@
 
 **An open-source graphical tool for generating Slurm job submission scripts for HPC environments**
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.19629545.svg)](https://doi.org/10.5281/zenodo.19629545)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENCE)
+
 Slurm JobMaker is an open-source, portable graphical tool for the interactive
 generation of Slurm job submission scripts. It guides early-stage researchers
 and occasional HPC users through the configuration of key job parameters
@@ -291,7 +294,7 @@ copyright notice is retained.
 If you use this software in your research, please cite it as follows:
 
 > Brachetta, V. (2026). *Slurm JobMaker* (Version 1.0.0). Zenodo.
-> https://doi.org/zenodo-doi
+> https://doi.org/10.5281/zenodo.19629545
 
 A BibTeX entry is provided below for convenience:
 ```bibtex
@@ -301,7 +304,7 @@ A BibTeX entry is provided below for convenience:
       year      = {2026},
       version   = {1.0.0},
       publisher = {Zenodo},
-      doi       = {zenodo-doi},
+      doi       = {10.5281/zenodo.19629545},
       url       = {https://github.com/vbrachetta/slurm-jobmaker}
     }
 ```

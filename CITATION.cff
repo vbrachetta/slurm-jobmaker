@@ -11,6 +11,7 @@ authors:
     orcid: https://orcid.org/0009-0008-3553-0163
 repository-code: https://github.com/vbrachetta/slurm-jobmaker
 url: https://github.com/vbrachetta/slurm-jobmaker
+doi: 10.5281/zenodo.19629545
 version: 1.0.0
 date-released: 2026-04-17
 license: MIT
